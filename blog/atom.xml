@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://makait.com</id>
+  <title>Hendrik Makait</title>
+  <updated>2023-09-30T16:49:25.298241+00:00</updated>
+  <link href="https://makait.com"/>
+  <link href="https://makait.com/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.5">ABlog</generator>
+</feed>

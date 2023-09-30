@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@100..900&family=Roboto+Mono:wght@100..900');
+
+:root {
+    --pst-font-family-base: "PT Serif", var(--pst-font-family-base-system);
+    --pst-font-family-heading: "Roboto Mono", var(--pst-font-family-monospace-system);
+    --pst-font-family-monospace: "Roboto Mono", var(--pst-font-family-monospace-system);
+}
+
+div.profile-pic {
+    margin-top: 1em;
+}
+
+div.profile-pic img {
+    border-radius: 500px;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.profile {
+    margin: 1em auto;
+    font-family: var(--pst-font-family-monospace);
+}
+
+
+.name {
+    font-size: 1.75em;
+}
+
+.focusareas {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 1em;
+}
+
+html[data-theme="light"] {
+    --pst-color-primary: #e80632;
+    --pst-color-secondary: #e80632;
+    --pst-color-secondary-highlight: #ff4655;
+    --pst-color-accent: #e806a4;
+}
+
+.navbar {
+    font-family: "Roboto Mono", var(--pst-font-family-monospace-system);
+}
+
+#search-input {
+    font-family: "Roboto Mono", var(--pst-font-family-monospace-system);
+}
+
+.bd-header .navbar-nav>.current>.nav-link {
+    border: none;
+}
