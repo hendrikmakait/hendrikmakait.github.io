@@ -336,7 +336,7 @@ html_title = "Hendrik Makait"
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-# html_favicon = None
+html_favicon = "_static/profile-circle-small.png"
 
 html_context = {"default_mode": "light"}
 
@@ -409,4 +409,4 @@ html_show_sphinx = False
 
 # -- Options for OpenGraph ------------------------------------------------
 opg_site_url = "https://makait.com"
-opg_image = "https://makait.com/_static/profile.jpg"
+opg_image = "https://makait.com/_static/profile-circle.png"
