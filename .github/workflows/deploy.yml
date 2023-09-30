@@ -1,0 +1,38 @@
+name: Build and deploy
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install poetry
+        run: pipx install poetry
+      
+      - name: Install Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+          cache: "poetry"
+      
+      - name: Install dependencies
+        run: poetry install
+      
+      - name: Build pages
+        run: |
+          poe build
+      
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3.9
+
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
+          cname: makait.com
