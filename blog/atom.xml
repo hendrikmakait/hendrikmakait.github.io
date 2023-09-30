@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://makait.com</id>
   <title>Hendrik Makait</title>
-  <updated>2023-09-30T18:30:17.932950+00:00</updated>
+  <updated>2023-09-30T18:34:01.848914+00:00</updated>
   <link href="https://makait.com"/>
   <link href="https://makait.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.5">ABlog</generator>
