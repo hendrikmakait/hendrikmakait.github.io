@@ -8,9 +8,6 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import os
-import sys
-import ablog
 
 # -- General ABlog Options ----------------------------------------------------
 
@@ -36,7 +33,7 @@ templates_path = ["_templates"]
 # links. Dictionary keys are what should be used in ``post`` directive
 # to refer to the author.  Default is ``{}``.
 # blog_authors = {
-    # "Hendrik Makait": ("Hendrik Makait", None),
+# "Hendrik Makait": ("Hendrik Makait", None),
 # }
 
 
@@ -108,10 +105,10 @@ templates_path = ["_templates"]
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
 html_sidebars = {
-    "index": ['hello.html'],
+    "index": ["hello.html"],
     "about": ["hello.html"],
     "blog": ["hello.html"],
-    "blog/**": ['ablog/postcard.html', "ablog/recentposts.html"],
+    "blog/**": ["ablog/postcard.html", "ablog/recentposts.html"],
 }
 
 # -- Blog Feed Options --------------------------------------------------------
@@ -161,7 +158,7 @@ html_sidebars = {
 # fontawesome_link_cdn = None
 
 # Sphinx_ theme already links to `Font Awesome`_.  Default: ``False``
-fontawesome_included = True 
+fontawesome_included = True
 
 # Alternatively, you can provide the path to `Font Awesome`_ :file:`.css`
 # with the configuration option: fontawesome_css_file
@@ -263,7 +260,7 @@ exclude_patterns = [
 # show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = "sphinx"
 
 # A list of ignored prefixes for module index sorting.
 # modindex_common_prefix = []
@@ -279,7 +276,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'pydata_sphinx_theme'
+html_theme = "pydata_sphinx_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -291,7 +288,8 @@ html_theme_options = {
     "secondary_sidebar_items": [],
     "footer_end": [],
     "icon_links": [
-        {   "name": "Email",
+        {
+            "name": "Email",
             "url": "mailto:hendrik@makait.com",
             "icon": "fa fa-envelope",
         },
