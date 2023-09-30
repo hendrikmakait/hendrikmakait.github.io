@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://makait.com</id>
   <title>Hendrik Makait</title>
-  <updated>2023-09-30T16:58:23.463198+00:00</updated>
+  <updated>2023-09-30T17:03:17.732043+00:00</updated>
   <link href="https://makait.com"/>
   <link href="https://makait.com/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.5">ABlog</generator>
+  <entry>
+    <id>https://makait.com/blog/personalization-vs-filter-bubble.html</id>
+    <title>Personalization versus ‘Filter Bubble’: The Influence of Personalization on the Quality of Search Queries</title>
+    <updated>2018-10-17T00:00:00+00:00</updated>
+    <author>
+      <name>Hendrik Makait</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;&lt;em&gt;With the accelerating speed of data generation, it becomes increasingly important to develop and improve techniques which help us find the most relevant information for any given question.
+Personalization as a solution is satisfactory for many use cases, such as on-site search in e-commerce or many queries on general purpose search engines.
+For certain queries, such as those on controversial political topics, however, result diversity is important to diminish the negative effects of personalization on civic discourse and democracy.&lt;/em&gt;&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://makait.com/blog/personalization-vs-filter-bubble.html" rel="alternate"/>
+    <summary>With the accelerating speed of data generation, it becomes increasingly important to develop and improve techniques which help us find the most relevant information for any given question.
+Personalization as a solution is satisfactory for many use cases, such as on-site search in e-commerce or many queries on general purpose search engines.
+For certain queries, such as those on controversial political topics, however, result diversity is important to diminish the negative effects of personalization on civic discourse and democracy.</summary>
+    <category term="essay" label="essay"/>
+    <category term="filterbubble" label="filter bubble"/>
+    <category term="personalization" label="personalization"/>
+    <published>2018-10-17T00:00:00+00:00</published>
+  </entry>
 </feed>
