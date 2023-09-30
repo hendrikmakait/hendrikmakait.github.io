@@ -24,6 +24,8 @@ blog_title = "Hendrik Makait"
 # e.g. blog_baseurl = "http://example.com/"
 blog_baseurl = "https://makait.com"
 
+templates_path = ["_templates"]
+
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
 # blog_archive_titles = False
@@ -106,7 +108,9 @@ blog_baseurl = "https://makait.com"
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
 html_sidebars = {
-    # "index": ['hello.html'],
+    "index": ['hello.html'],
+    "about": ["hello.html"],
+    "blog": ["hello.html"],
     "blog/**": ['ablog/postcard.html', "ablog/recentposts.html"],
 }
 
@@ -157,7 +161,7 @@ html_sidebars = {
 # fontawesome_link_cdn = None
 
 # Sphinx_ theme already links to `Font Awesome`_.  Default: ``False``
-fontawesome_included = False
+fontawesome_included = True 
 
 # Alternatively, you can provide the path to `Font Awesome`_ :file:`.css`
 # with the configuration option: fontawesome_css_file
@@ -193,6 +197,11 @@ extensions = [
     # "sphinxext.rediraffe",
     "sphinxext.opengraph",
     "sphinx_copybutton",
+]
+
+# MyST config
+myst_enable_extensions = [
+    "colon_fence",
 ]
 
 # The suffix(es) of source filenames.
@@ -276,6 +285,37 @@ html_theme = 'pydata_sphinx_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
+    "search_bar_text": "Search this site...",
+    # Disable dark/light theme switch
+    "navbar_end": ["navbar-icon-links"],
+    "secondary_sidebar_items": [],
+    "footer_end": [],
+    "icon_links": [
+        {   "name": "Email",
+            "url": "mailto:hendrik@makait.com",
+            "icon": "fa fa-envelope",
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/hendrikmakait",
+            "icon": "fab fa-github",
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/hendrikmakait/",
+            "icon": "fab fa-linkedin",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/HendrikMakait",
+            "icon": "fab fa-twitter",
+        },
+        {
+            "name": "Atom Feed",
+            "url": "https://blog.coiled.io/blog/atom.xml",
+            "icon": "fa-solid fa-rss",
+        },
+    ],
     # 'github_button': False,
 }
 
@@ -297,6 +337,8 @@ html_title = "Hendrik Makait"
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 # html_favicon = None
+
+html_context = {"default_mode": "light"}
 
 html_css_files = ["custom.css"]
 
