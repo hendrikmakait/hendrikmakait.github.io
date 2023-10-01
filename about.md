@@ -11,13 +11,17 @@ While doing his M.Sc in Computer Science at [TU Berlin](https://www.tu-berlin.de
 He wrote his thesis on rethinking message brokers to leverage remote direct memory access and persistent memory, and his research was awarded 2nd place in the Graduate Student category at the [ACM SIGMOD 2020 Student Research Competition](https://src.acm.org/winners/2020).
 
 ::::{grid} 2
-:::{grid-item} ### **Interests**
+:::{grid-item}
+:columns: 12 12 6 6
+### **Interests**
 - Large-Scale Data Systems
 - Distributed Computing
 - Machine Learning Systems 
 - Open Source Software 
 :::
-:::{grid-item} ### **Education**
+:::{grid-item}
+:columns: 12 12 6 6
+### **Education**
 - M. Sc. in Computer Science, 2017 - 2020</br>
   *Technische Universität Berlin, Berlin, Germany*   
 - Visiting Undergraduate Student, 2014</br>
