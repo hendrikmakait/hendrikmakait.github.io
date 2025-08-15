@@ -1,29 +1,29 @@
-[tool.poetry]
+[project]
 name = "hendrikmakait-github-io"
 version = "0.1.0"
 description = "Professional website of Hendrik Makait"
-authors = ["Hendrik Makait <hendrik@makait.com>"]
 readme = "README.md"
+authors = [
+    {name = "Hendrik Makait", email = "hendrik@makait.com"},
+]
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "ablog<1.0.0,>=0.11.6",
+    "myst-parser<3.0.0,>=2.0.0",
+    "poethepoet<1.0.0,>=0.23.0",
+    "pydata-sphinx-theme<1.0.0,>=0.14.1",
+    "sphinx<8.0.0,>=7.2.6",
+    "sphinx-copybutton<1.0.0,>=0.5.2",
+    "sphinx-design<1.0.0,>=0.5.0",
+    "sphinxext-opengraph<1.0.0,>=0.8.2",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-ablog = "^0.11.6"
-myst-parser = "^2.0.0"
-poethepoet = "^0.23.0"
-pydata-sphinx-theme = "^0.14.1"
-sphinx = "^7.2.6"
-sphinx-copybutton = "^0.5.2"
-sphinx-design = "^0.5.0"
-sphinxext-opengraph = "^0.8.2"
-
-[tool.poetry.group.dev.dependencies]
-pre-commit = "^3.4.0"
-sphinx-autobuild = "^2021.3.14"
+[dependency-groups]
+dev = [
+    "pre-commit<4.0.0,>=3.4.0",
+    "sphinx-autobuild<2022.0.0,>=2021.3.14",
+]
 
 [tool.poe.tasks]
 autobuild = "sphinx-autobuild --ignore _build -b dirhtml  . _build/dirhtml/"
 build = "sphinx-build -M html . _build"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"

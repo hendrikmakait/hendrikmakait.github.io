@@ -242,6 +242,8 @@ language = "en"
 exclude_patterns = [
     "_build",
     ".vscode",
+    ".venv",
+    "README.md"
 ]
 
 # The reST default role (used for this markup: `text`) to use for all
