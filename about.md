@@ -1,7 +1,7 @@
 # About
 
 Hendrik Makait is a data and software engineer building systems at the intersection of large-scale data management and machine learning.
-Currently, he works as an Open Source Engineer at <a href="https://www.coiled.io/">Coiled</a> maintaining and improving <a href="https://www.dask.org/">Dask</a> and its distributed execution engine.
+Most recently, he worked as a Senior Software Engineer at <a href="https://www.coiled.io/">Coiled</a> maintaining and improving <a href="https://www.dask.org/">Dask</a> and its distributed execution engine.
 His focus areas include P2P shuffling which allows shuffling large data at constant memory, and observability with Dask to help users understand and optimize their workloads.
 
 Previously, he has worked on scalable data management for multimodal and unstructured sensor data, as well as data engineering for business intelligence. He worked on the design and implementation of a scalable query engine at SiaSearch (acquired by <a href="https://scale.com/">Scale AI</a>), and later scaling the ingestion and querying capabilities of <a href="https://scale.com/nucleus">Scale Nucleus</a>. 
