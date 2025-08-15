@@ -6,7 +6,7 @@ tags: [dask, observability, coiled, performance]
 author: Hendrik Makait
 excerpt: 2
 ---
-# Talk: Observability for Distributed Computing with Dask | PyCon DE 2023
+# Observability for Distributed Computing with Dask | PyCon DE 2023
 
 :::{video} https://www.youtube.com/watch?v=Qp90ka5ZMqg
 :::

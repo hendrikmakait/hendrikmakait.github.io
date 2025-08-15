@@ -6,7 +6,9 @@ tags: [dask, pandas, coiled, performance]
 author: Hendrik Makait
 excerpt: 2
 ---
-# Talk: Shuffling Large Data at Constant Memory in Dask | Dask Demo Day 2023-03
+# Shuffling Large Data at Constant Memory in Dask
+
+**Dask Demo Day 2023-03 | 2023-03-16**
 
 :::{video} https://www.youtube.com/watch?v=-clDr7dqONE&t=588s
 :::

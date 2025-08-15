@@ -4,9 +4,9 @@ date: 2025-04-09
 category: Talk
 tags: [dask, xarray, scalability, performance]
 author: Hendrik Makait
-excerpt: 2
+excerpt: 1
 ---
-# Talk: Dask Array: Scaling Up for Terabyte-Level Performance | Pangeo Showcase 2025-04-09
+# Dask Array: Scaling Up for Terabyte-Level Performance | Pangeo Showcase 2025-04-09
 
 :::{video} https://www.youtube.com/watch?v=p_D3W4C5ldg
 :::

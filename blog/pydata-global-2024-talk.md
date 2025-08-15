@@ -6,7 +6,7 @@ tags: [dask, xarray, performance, scalability]
 author: Hendrik Makait
 excerpt: 2
 ---
-# Talk: Dask ❤️ Xarray: Geoscience at Massive Scale | PyData Global 2024
+# Dask ❤️ Xarray: Geoscience at Massive Scale | PyData Global 2024
 
 :::{video} https://www.youtube.com/watch?v=KJxJRx7KQtc
 :::

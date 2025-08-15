@@ -6,7 +6,7 @@ tags: [dask, observability, coiled, performance]
 author: Hendrik Makait
 excerpt: 2
 ---
-# Talk: Observability for Dask in Production | Pydata London 2024
+# Observability for Dask in Production | Pydata London 2024
 
 :::{video} https://www.youtube.com/watch?v=gHsT6gHSkWM
 :::

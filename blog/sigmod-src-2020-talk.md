@@ -6,7 +6,7 @@ tags: [rdma, pmem, modern hardware, message broker, scalability]
 author: Hendrik Makait
 excerpt: 1
 ---
-# Talk: Rethinking Message Brokers on RDMA and NVM | ACM SIGMOD 2020 SRC
+# Rethinking Message Brokers on RDMA and NVM | ACM SIGMOD 2020 SRC
 
 :::{video} https://www.youtube.com/watch?v=9Lpa_qOStSE
 :::

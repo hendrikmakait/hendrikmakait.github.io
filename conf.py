@@ -109,7 +109,7 @@ html_sidebars = {
     "about": ["hello.html"],
     "talks": ["hello.html"],
     "blog": ["hello.html"],
-    "blog/**": ["ablog/postcard.html", "ablog/recentposts.html"],
+    "blog/**": ["hello.html"],
 }
 
 # -- Blog Feed Options --------------------------------------------------------
