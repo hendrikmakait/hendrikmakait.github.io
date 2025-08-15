@@ -4,7 +4,7 @@
 :category: Talk
 :list-style: circle
 :date: %Y-%m-%d
-:format: {date}: {title}
+:format: {date}: {title} 
 :list-style: circle
 :excerpts:
 :::
