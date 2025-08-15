@@ -31,17 +31,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install poetry
-        run: pipx install poetry
-      
-      - name: Install Python 3.11
-        uses: actions/setup-python@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: 3.11
-          cache: "poetry"
-      
-      - name: Install dependencies
-        run: poetry install
+          # Install a specific version of uv.
+          version: "0.8.11"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install the dependencies
+        run: uv sync --locked 
 
       - name: Setup Pages
         id: pages
@@ -50,7 +50,7 @@ jobs:
         # Outputs to the './_build/html' directory
       - name: Build pages
         run: |
-          poetry run poe build
+          uv run poe build
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
