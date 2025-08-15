@@ -1,6 +1,7 @@
 ---
 blogpost: true
 date: 2023-06-23
+category: Post
 tags: [pandas, dask, performance, coiled]
 author: Patrick Hoefler, Hendrik Makait
 excerpt: 2

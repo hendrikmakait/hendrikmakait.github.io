@@ -1,6 +1,7 @@
 ---
 blogpost: true
 date: 2023-05-16
+category: Post
 tags: [observability, dask, distributed, metrics, logging, grafana, prometheus, coiled, dashboards]
 author: Hendrik Makait
 image: 1

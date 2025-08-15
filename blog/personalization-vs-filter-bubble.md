@@ -1,6 +1,7 @@
 ---
 blogpost: true
 date: 2018-10-17
+category: Post
 author: Hendrik Makait
 draft: false
 tags: [essay, filter bubble, personalization]

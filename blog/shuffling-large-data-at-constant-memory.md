@@ -1,6 +1,7 @@
 ---
 blogpost: true
 date: 2023-03-15
+category: Post
 tags: [p2p, shuffling, dask, distributed]
 author: Hendrik Makait
 image: 1

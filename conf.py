@@ -107,6 +107,7 @@ templates_path = ["_templates"]
 html_sidebars = {
     "index": ["hello.html"],
     "about": ["hello.html"],
+    "talks": ["hello.html"],
     "blog": ["hello.html"],
     "blog/**": ["ablog/postcard.html", "ablog/recentposts.html"],
 }
@@ -194,6 +195,7 @@ extensions = [
     # "sphinxext.rediraffe",
     "sphinxext.opengraph",
     "sphinx_copybutton",
+    "sphinx_iframes",
 ]
 
 # MyST config
@@ -212,7 +214,7 @@ myst_enable_extensions = [
 
 # General information about the project.
 project = "Hendrik Makait"
-copyright = "2018, Hendrik Makait"
+copyright = "Hendrik Makait"
 author = "Hendrik Makait"
 
 # The version info for the project you're documenting, acts as replacement for
@@ -239,12 +241,7 @@ language = "en"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = [
-    "_build",
-    ".vscode",
-    ".venv",
-    "README.md"
-]
+exclude_patterns = ["_build", ".vscode", ".venv", "README.md"]
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -306,9 +303,9 @@ html_theme_options = {
             "icon": "fab fa-linkedin",
         },
         {
-            "name": "Twitter",
-            "url": "https://twitter.com/HendrikMakait",
-            "icon": "fab fa-twitter",
+            "name": "X",
+            "url": "https://x.com/HendrikMakait",
+            "icon": "fab fa-x-twitter",
         },
         {
             "name": "Atom Feed",

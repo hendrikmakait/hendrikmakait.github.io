@@ -21,5 +21,6 @@ I'm always interested in chatting about the Python and Rust data ecosystems, new
 :maxdepth: 2
 :hidden:
 about
+talks
 blog
 ```

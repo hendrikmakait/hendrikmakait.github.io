@@ -192,6 +192,7 @@ dependencies = [
     { name = "sphinx" },
     { name = "sphinx-copybutton" },
     { name = "sphinx-design" },
+    { name = "sphinx-iframes" },
     { name = "sphinxext-opengraph" },
 ]
 
@@ -204,12 +205,13 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "ablog", specifier = ">=0.11.6,<1.0.0" },
-    { name = "myst-parser", specifier = ">=2.0.0,<3.0.0" },
+    { name = "myst-parser", specifier = ">=4.0.0,<5.0.0" },
     { name = "poethepoet", specifier = ">=0.23.0,<1.0.0" },
     { name = "pydata-sphinx-theme", specifier = ">=0.14.1,<1.0.0" },
     { name = "sphinx", specifier = ">=7.2.6,<8.0.0" },
     { name = "sphinx-copybutton", specifier = ">=0.5.2,<1.0.0" },
     { name = "sphinx-design", specifier = ">=0.5.0,<1.0.0" },
+    { name = "sphinx-iframes", specifier = ">=1.0.6" },
     { name = "sphinxext-opengraph", specifier = ">=0.8.2,<1.0.0" },
 ]
 
@@ -416,7 +418,7 @@ wheels = [
 
 [[package]]
 name = "myst-parser"
-version = "2.0.0"
+version = "4.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils" },
@@ -426,9 +428,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "sphinx" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e8/c1/48ea47b78ade0bb0281f34c9e343e3ea0c681fbc81464dbfd134e983954f/myst_parser-2.0.0.tar.gz", hash = "sha256:ea929a67a6a0b1683cdbe19b8d2e724cd7643f8aa3e7bb18dd65beac3483bead", size = 85800, upload-time = "2023-06-13T16:30:30.136Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/a5/9626ba4f73555b3735ad86247a8077d4603aa8628537687c839ab08bfe44/myst_parser-4.0.1.tar.gz", hash = "sha256:5cfea715e4f3574138aecbf7d54132296bfd72bb614d31168f48c477a830a7c4", size = 93985, upload-time = "2025-02-12T10:53:03.833Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1d/f6/6d61a023d758f488e36638076e8a4ec4447a2cdf86938cf6c60cf1c860e6/myst_parser-2.0.0-py3-none-any.whl", hash = "sha256:7c36344ae39c8e740dad7fdabf5aa6fc4897a813083c6cc9990044eb93656b14", size = 77158, upload-time = "2023-06-13T16:30:27.697Z" },
+    { url = "https://files.pythonhosted.org/packages/5f/df/76d0321c3797b54b60fef9ec3bd6f4cfd124b9e422182156a1dd418722cf/myst_parser-4.0.1-py3-none-any.whl", hash = "sha256:9134e88959ec3b5780aedf8a99680ea242869d012e8821db3126d427edc9c95d", size = 84579, upload-time = "2025-02-12T10:53:02.078Z" },
 ]
 
 [[package]]
@@ -675,6 +677,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/2b/69/b34e0cb5336f09c6866d53b4a19d76c227cdec1bbc7ac4de63ca7d58c9c7/sphinx_design-0.6.1.tar.gz", hash = "sha256:b44eea3719386d04d765c1a8257caca2b3e6f8421d7b3a5e742c0fd45f84e632", size = 2193689, upload-time = "2024-08-02T13:48:44.277Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c6/43/65c0acbd8cc6f50195a3a1fc195c404988b15c67090e73c7a41a9f57d6bd/sphinx_design-0.6.1-py3-none-any.whl", hash = "sha256:b11f37db1a802a183d61b159d9a202314d4d2fe29c163437001324fe2f19549c", size = 2215338, upload-time = "2024-08-02T13:48:42.106Z" },
+]
+
+[[package]]
+name = "sphinx-iframes"
+version = "1.0.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e3/fe/8408fd975f34f4a144a8ec8aaa5468021623542cb720739c87d152fdbf23/sphinx_iframes-1.0.6.tar.gz", hash = "sha256:2212ff00ff2bc4be01d2b72982c5e81337a3ef0de4b70de32a7f634c097b7a21", size = 11962, upload-time = "2025-07-18T08:52:51.744Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/06/65/832db313b11b5cf25343e75ba146c735051d1c446a635cd280720a977b28/sphinx_iframes-1.0.6-py3-none-any.whl", hash = "sha256:e7541ff3a632bfaa03ad97fb0c9194a9647063726ddd334f911e169166979d7b", size = 9004, upload-time = "2025-07-18T08:52:50.282Z" },
 ]
 
 [[package]]
