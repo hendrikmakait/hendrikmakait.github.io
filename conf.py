@@ -196,6 +196,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_copybutton",
     "sphinx_iframes",
+    "sphinx_sitemap",
 ]
 
 # MyST config
@@ -407,3 +408,7 @@ html_show_sphinx = False
 # -- Options for OpenGraph ------------------------------------------------
 opg_site_url = "https://makait.com"
 opg_image = "https://makait.com/_static/profile-circle.png"
+
+
+# -- Options for Sphinx Sitemap --------------------------------------------
+html_baseurl = "https://makait.com/"
