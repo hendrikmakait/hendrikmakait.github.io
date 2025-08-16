@@ -11,7 +11,7 @@ I'm always interested in chatting about the Python and Rust data ecosystems, new
 
 ## Recent blog posts
 
-```{postlist}
+```{postlist} 5
 :date: "%Y-%m-%d"
 :format: "{title} - {date}"
 :excerpts:
