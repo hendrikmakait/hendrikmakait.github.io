@@ -412,3 +412,4 @@ opg_image = "https://makait.com/_static/profile-circle.png"
 
 # -- Options for Sphinx Sitemap --------------------------------------------
 html_baseurl = "https://makait.com/"
+sitemap_url_scheme = "{link}"
